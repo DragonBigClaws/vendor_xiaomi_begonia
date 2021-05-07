@@ -1911,7 +1911,5 @@ PRODUCT_PACKAGES += \
     SoterService \
     HotwordEnrollmentOKGoogleRT5514P \
     HotwordEnrollmentXGoogleRT5514P \
-    android.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.mediatek.hardware.dplanner@2.0-service
+    manifest_android.hardware.drm@1.3-service.widevine
