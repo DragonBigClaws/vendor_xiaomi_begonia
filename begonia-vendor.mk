@@ -1237,6 +1237,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/secure_element-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/secure_element-impl.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gpu@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.microtrust.hardware.capi@2.0.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so \
@@ -1864,6 +1887,54 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.atms@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dfps@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.dplanner@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dplanner@2.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.engineermode@1.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.gpu@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.log@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.3.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.4.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.5.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.3.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.4.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.5.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.1.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.2.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.3.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@1.4.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.radio_op@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio_op@2.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.capi@2.0.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.microtrust.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.soter@1.0.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so \
